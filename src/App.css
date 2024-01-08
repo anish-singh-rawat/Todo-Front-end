@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(125, 125, 176);
+}
+.container {
+    height: 100vh;
+  }
+.todo-header{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+.list-data{
+    width: 85%;
+    margin: auto;
+    font-size: 20px;
+    word-wrap: break-word;
+}
+input{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+.text{
+    width: 70%;
+}
+.todo{
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    width: 50%;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-around;
+}
